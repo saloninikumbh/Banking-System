@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Banking System</title>
+	<link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+<body>
+    <div class="header-contact">
+        <header>
+					<h1 style ="color:#903749;font-size: 30px;"> Sparks Bank</h1>
+					<hr size="4">
+            <div class="header-contact-right">
+            <a href="home.html" style="margin-right: 30px;">Home</a>
+            <a href="contact.html" style="margin-right: 30px;">Contact</a>
+            <a href="cust.html" style="margin-right: 30px;">View Customers</a>
+            <i class="large facebook icon" style="margin-right: 30px;"></i>
+            <i class="large google icon" style="margin-right: 30px;"></i>
+            </div>
+        </header>
+    </div>
+    <div>
+        <img  src="photo1.jpeg" width="100%" height="500px"/>
+    </div>
+    <div class="sec-contact container text-center">
+        <h1 style="color:#903749">Contact us</h1><br/><br/>
+        <div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 contact-box">
+                <i style="color:#903749" class="large linkedin icon" href="linkedin.com/in/saloni-nikumbh-3594581b8"> </i><br/>
+                <p style="color:rgb(167, 165, 165)"></p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 contact-box">
+                <i style="color:#903749" class="large phone icon"></i><br/>
+                <p style="color:rgb(167, 165, 165)"></p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 contact-box">
+                <i style="color:#903749" class="large mail icon"></i><br/>
+                <p style="color:rgb(167, 165, 165)"></p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container contact-form">
+            <div class="row text-center" >
+
+                    <h1 style="color:#903749;font-size:30px;">Get In Touch</h1><br/>
+                </div>
+                <div>
+
+                    <form action="mailto:saloninikumbh@gmail.com" method="post" enctype="text/plain" >
+											<div class="col-12 col-sm-6 col-md-5 col-lg-6 " >
+                        <label>Name</label>
+											  <input placeholder="" type="text"  class="contact-form-input">
+											  <br>
+
+
+											</div>
+											<div class="col-12 col-sm-6 col-md-6 col-lg-6" >
+												<label>Email</label>
+											    <input placeholder="" class="contact-form-input"  />
+											</div><br/><br/>
+											<div class="col-12 col-sm-12 col-md-12 col-lg-12" >
+												<label>Contact No</label>
+											    <input placeholder="" class="contact-form-input"  />
+											</div><br/><br/>
+											<div class="col-12 col-sm-12 col-md-12 col-lg-12" >
+													<label>Feedback</label>
+											    <input placeholder="" class="contact-form-input" id="contact-form-feedback"  />
+											</div><br/><br/>
+											<div>
+											    <button class="contact-form-btn" onClick={onSubmit}  > Submit</button>
+											</div><br/><br/>
+										</form>
+                </div>
+            </div>
+        </div><br/><br/><br/>
+        <div class="footer-contact">
+            <div class="ui center aligned container margin" >
+                <div class="ui stackable inverted divided grid">
+                    <div class="six wide column ">
+                        <div class="ui inverted link list">
+                            <div>
+                            <br/><br/>
+                            <p style="color:rgb(172, 170, 170);">Our website strives to develop a platform which brings together the talent, craze, nostalgia and awesomeness which individuals might not be able to gain at the comfort of their RGB Gaming Beasts... </p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="five wide column footer-contact-2">
+                        <div class="ui inverted link list ">
+                            <p style="color:#903749;font-size: 20px;"><b>Services</b></p>
+                            <a >Personal Transactions</a><br/><br/>
+                            <a >Business Transactions</a>
+                            <a></a>
+                        </div>
+                    </div>
+                    <div class="five wide column ">
+                        <div class="ui inverted link list " >
+                            <p style="color:#903749;font-size: 20px;"><b>Open Hours</b></p>
+                            <p style="color:rgb(167, 165, 165);">We work all days a week, Please contact us for any inquiry.</p>
+                        </div>
+                    </div>
+
+                </div><br/><br/>
+                <div class="text-center " style="color:#903749;" >@copyright | 2020</div><br/>
+                <div class="text-center" >
+
+
+                    <a href="https://www.linkedin.com/in/saloni-nikumbh-3594581b8" target="_blank" ><button class="ui circular linkedin icon button" >
+                       <i class="linkedin icon"></i>
+                    </button></a>
+                    <a href="https://youtu.be/rUvB2JIwwl4" target="_blank" ><button class="ui circular facebook icon button" >
+                        <i class="facebook  icon"></i>
+                    </button></a>
+                    <a href="https://youtu.be/rUvB2JIwwl4" target="_blank" ><button class="ui circular youtube icon button" >
+                       <i class="youtube  icon"></i>
+                    </button></a><br/>
+                </div>
+            </div>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
